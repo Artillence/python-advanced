@@ -3,14 +3,15 @@
 This readme describes the steps of configuring your environment for the *python-advanced* course.
 
 1. Download and install [winpython](https://github.com/winpython/winpython/releases/download/8.2.20240618final/Winpython64-3.12.4.1dot.exe).
-2. Extract to user directory.
+2. Extract to desktop.
 3. Install [VSCode](https://code.visualstudio.com/docs/python/python-tutorial).
-4. Clone this repository `git clone https://github.com/Artillence/python-advanced.git` or download the latest version using [this link](https://github.com/Artillence/python-advanced/archive/refs/heads/main.zip).
+4. Open a command prompt on the desktop.
+5. Clone this repository `git clone https://github.com/Artillence/python-advanced.git` or download the latest version using [this link](https://github.com/Artillence/python-advanced/archive/refs/heads/main.zip).
 
 2. **Create a Virtual Environment (`venv`)**:
     - Open `C:\Users\Administrator\Desktop\WPy64-31241\WinPython Command Prompt.exe` and navigate to your working directory:
       ```sh
-      cd C:\Users\Administrator\python-advanced
+      cd C:\Users\Administrator\Desktop\python-advanced
 	  
 	  # Create venv
       C:\Users\Administrator\Desktop\WPy64-31241\python-3.12.4.amd64\python.exe -m venv venv
